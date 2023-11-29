@@ -1,0 +1,25 @@
+{
+  "name": "auth-services",
+  "version": "1.0.0",
+  "description": "we  build university management applications ",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "md mahmudul   hasan (sobuj )",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1",
+    "ts-node-dev": "^2.0.0",
+    "yarn": "^1.22.21"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "typescript": "^5.3.2"
+  }
+}
