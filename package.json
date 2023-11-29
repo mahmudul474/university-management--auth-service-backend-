@@ -4,6 +4,8 @@
   "description": "we  build university management applications ",
   "main": "index.js",
   "scripts": {
+    "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts",
+    "lint:fix": "eslint . --fix",
     "start": "ts-node-dev --respawn --transpile-only src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
